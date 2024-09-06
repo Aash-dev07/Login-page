@@ -1,0 +1,55 @@
+*{
+  font-family:'Lexend',sans-serif;
+  COLOR:#495057;
+
+}
+
+.container{
+background-image: url(Wave.svg);
+background-size: 100%;
+}
+.loginpage{
+  margin: 150px 200px;
+  background-color: #f8f9fa;
+ 
+}
+.title{
+  font-size: 67.34px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.form{
+  text-align: center;
+}
+
+.usnm{
+  display: block;
+  margin-bottom: 40px;
+}
+.field{
+  width:350px;
+  height: 35px;
+  font-size: 16px;
+}
+.label{
+  font-size: 21.33px;
+  font-weight: 700;
+}
+.field:focus::placeholder{
+  color:transparent;
+}
+.button{
+  padding:12px 12px;
+  margin:64px auto;
+  background-color:#228be6;
+  border: none;
+  color: #f8f9fa;
+}
+.button:hover{
+  background-color: #4dabf7;
+  cursor:pointer;
+}
+.login{
+  margin-right: 18px;
+  padding:auto 34px;
+}
